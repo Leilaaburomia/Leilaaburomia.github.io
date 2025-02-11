@@ -1,10 +1,10 @@
 ---
 title: "Leila Aburomia"
-image: "C:/Users/leila/OneDrive/Pictures/Camera Roll/IMG_3083.jpg"
+image: "Camera Roll/IMG_3083.jpg"
 toc: false
 about: 
   template: jolla
-  image-shape: rectangle
+  image-shape: round
   image-width: 17em
   links:
     - text: LinkedIn
