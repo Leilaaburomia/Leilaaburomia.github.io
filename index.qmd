@@ -1,9 +1,18 @@
 ---
-title: "Leilaaburomia.github.io"
+title: "Leila Aburomia"
+image: "C:/Users/leila/OneDrive/Pictures/Camera Roll/IMG_3083.jpg"
+toc: false
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/leilaaburomia/
+    - text: GitHub
+      href: https://github.com/Leilaaburomia
+    - text: Email
+      href: mailto::Leilaa24@colostate.edu
 ---
 
-This is a Quarto website!!
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-
+Hello, my name is Leila. I am a 3rd year undergraduate student at Colorado State University. I am studying Ecosystem Science and Sustainability with a minor in Sustainable Water. Currently, I am interested in stream ecology and participating in ecological field work. During my free time I enjoy mountain biking and spending time with my cats!
