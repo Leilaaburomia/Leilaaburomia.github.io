@@ -1,6 +1,6 @@
 ---
 title: "Leila Aburomia"
-image: "Camera Roll/IMG_3083.jpg"
+image: "Media/IMG_3083.jpg"
 toc: false
 about: 
   template: jolla
