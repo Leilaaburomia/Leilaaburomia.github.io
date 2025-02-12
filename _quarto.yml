@@ -3,18 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "Leilaaburomia.github.io"
+  title: "Leila Aburomia"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - resources.qmd
+    
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
+    page-layout: full
+    
 
 editor: visual
 
