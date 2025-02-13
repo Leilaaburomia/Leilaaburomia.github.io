@@ -3,7 +3,7 @@ title: "Leila Aburomia"
 image: "Media/IMG_3083.jpg"
 toc: false
 about: 
-  template: jolla
+  template: solana 
   image-shape: round
   image-width: 17em
   links:

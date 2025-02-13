@@ -1,8 +1,9 @@
 ---
 title: "Resume"
-about: 
-  template: jolla
-  links:
-    - text: Resume
-      href: "C:/Users/leila/OneDrive/ESS330/github/Leilaaburomia.github.io/docs/Resume_LAburomia12.30.24.pdf"
+format: html
 ---
+Here is my resume:
+
+<embed src="Resume_LAburomia1.pdf"
+type="application/pdf" width="100%"
+height="600px">
