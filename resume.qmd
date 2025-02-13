@@ -1,6 +1,8 @@
 ---
 title: "Resume"
-links:
+about: 
+  template: jolla
+  links:
     - text: Resume
-      href: Resume_LAburomia12.30.24.pdf
+      href: "docs/Resume_LAburomia12.30.24.pdf" 
 ---
