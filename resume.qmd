@@ -4,5 +4,5 @@ about:
   template: jolla
   links:
     - text: Resume
-      href: "docs/Resume_LAburomia12.30.24.pdf" 
+      href: "C:/Users/leila/OneDrive/ESS330/github/Leilaaburomia.github.io/docs/Resume_LAburomia12.30.24.pdf"
 ---
