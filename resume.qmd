@@ -1,0 +1,6 @@
+---
+title: "Resume"
+links:
+    - text: Resume
+      href: Resume_LAburomia12.30.24.pdf
+---

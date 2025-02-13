@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leila Aburomia",
+    "section": "",
+    "text": "As an Ecosystem Science and Sustainability student at Colorado State University, my goal is to align my professional interests in ecological research with my values to preserve our natural environment. Throughout my undergraduate career, I have supported my goal by receiving my environmental work experiences with a strong intention to learn. Conducting vegetation surveys, post-restoration wetland assessments, extensive bird monitoring, and working alongside professional biologists has created a strong skill set in field research. Being a logical and independent thinker contributes to my ability to solve problems. Overall, I seek to contribute my expertise in organizations focused on conservation science."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -7,10 +14,10 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leila Aburomia",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Hello, my name is Leila. I am a 3rd year undergraduate student at Colorado State University. I am studying Ecosystem Science and Sustainability with a minor in Sustainable Water. Currently, I am interested in stream ecology and participating in ecological field work. During my free time I enjoy mountain biking and spending time with my cats!"
+    "text": "During the Spring of 2025 I took a Quantitative Reasoning class based in R. Our first laboratory assignment was to build a project website. Here is the link! https://github.com/Leilaaburomia/Leilaaburomia.github.io\nIn this assignment I learned how to…\n- render, commit, and push updates and changes to my remote repository on GitHub\n- change the theme and layout of my repository website page\n- add additional pages to my website to include other information"
   }
 ]

@@ -1,0 +1,13 @@
+---
+title: "Projects"
+---
+
+During the Spring of 2025 I took a Quantitative Reasoning class based in R. Our first laboratory assignment was to build a project website. Here is the link! <https://github.com/Leilaaburomia/Leilaaburomia.github.io>
+
+In this assignment I learned how to...
+
+\- render, commit, and push updates and changes to my remote repository on GitHub
+
+\- change the theme and layout of my repository website page
+
+\- add additional pages to my website to include other information
