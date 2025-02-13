@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Here is my resume:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Leila Aburomia",
@@ -19,12 +26,5 @@
     "title": "Projects",
     "section": "",
     "text": "During the Spring of 2025 I took a Quantitative Reasoning class based in R. Our first laboratory assignment was to build a project website. Here is the link! https://github.com/Leilaaburomia/Leilaaburomia.github.io\nIn this assignment I learned how to…\n- render, commit, and push updates and changes to my remote repository on GitHub\n- change the theme and layout of my repository website page\n- add additional pages to my website to include other information"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Here is my resume:"
   }
 ]
