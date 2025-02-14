@@ -14,7 +14,7 @@ website:
         text: Projects 
       - href: resume.qmd
         text: Resume
-page-footer:
+  page-footer:
     background: light
     left: Leila Aburomia
     right: This website is built with Quarto 
@@ -23,8 +23,7 @@ page-footer:
 
 format:
   html:
-    theme: sandstone
-    css: styles.css
+    theme: styles.scss
     toc: true
     page-layout: full
     
