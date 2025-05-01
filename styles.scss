@@ -7,12 +7,13 @@ $green: #629D89;
 $royalblue: #4351BC;
 $purple: #7243BC;
 $blue: #438DBC;
-$lightpink: #ead3df;
+$White: #F0FFFF;
+$black: #000000
 // Base document colors
 $navbar-bg: $teal; // navbar
-$navbar-fg: $royalblue; // navbar foreground elements
+$navbar-fg: $White; // navbar foreground elements
 $navbar-hl: $green; // highlight color when hovering over navbar links
-$body-bg: $lightpink; // page background 
-$body-color: $royalblue; // page text 
-$footer-bg: $blue; // footer 
+$body-bg: $White; // page background 
+$body-color: $black; // page text 
+$footer-bg: $teal; // footer 
 $link-color: $teal; // hyperlinks 
