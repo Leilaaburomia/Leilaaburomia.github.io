@@ -2,12 +2,14 @@
 title: "Projects"
 ---
 
-During the Spring of 2025 I took a Quantitative Reasoning class based in R. Our first laboratory assignment was to build a project website. Here is the link! <https://github.com/Leilaaburomia/Leilaaburomia.github.io>
+### Lab 1 
 
-In this assignment I learned how to...
+In lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.
 
-\- render, commit, and push updates and changes to my remote repository on GitHub
+```{r}
+install.packages("magick")
+library(magick)
 
-\- change the theme and layout of my repository website page
+img <- image_read("images/lab1image.jpg")
+```
 
-\- add additional pages to my website to include other information
