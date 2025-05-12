@@ -6,9 +6,6 @@ title: "Projects"
 
 In lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.
 
-```{r}
-library(magick)
+!["Webpage Preview"](images/lab1image.jpg)
 
-img <- image_read("images/lab1image.jpg")
-```
 
