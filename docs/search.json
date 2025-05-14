@@ -7,27 +7,6 @@
     "text": "Here is my resume:"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leila Aburomia",
-    "section": "",
-    "text": "As an Ecosystem Science and Sustainability student at Colorado State University, my goal is to align my professional interests in ecological research with my values to preserve our natural environment. Throughout my undergraduate career, I have supported my goal by receiving my environmental work experiences with a strong intention to learn. Conducting vegetation surveys, post-restoration wetland assessments, extensive bird monitoring, and working alongside professional biologists has created a strong skill set in field research. Being a logical and independent thinker contributes to my ability to solve problems. Overall, I seek to contribute my expertise in organizations focused on conservation science."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Lab 1\nIn lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.\n\nlibrary(magick)\n\nLinking to ImageMagick 6.9.12.98\nEnabled features: cairo, freetype, fftw, ghostscript, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fontconfig, x11\n\nimg &lt;- image_read(\"images/lab1image.jpg\")"
-  },
-  {
     "objectID": "lab-10.html",
     "href": "lab-10.html",
     "title": "Lab 10: Distances and Projections",
@@ -61,5 +40,26 @@
     "title": "Lab 10: Distances and Projections",
     "section": "Question 4.",
     "text": "Question 4.\n\n# 4.1. Quantifying Border Zone \n\nborder_threshold_km &lt;- 160\n\ncities_in_border_zone &lt;- cities_proj %&gt;%\n  filter(dist_to_us_border_km &lt;= border_threshold_km)\n\ntotal_cities &lt;- nrow(cities_proj)\ntotal_population &lt;- sum(cities_proj$population, na.rm = TRUE)\n\nn_cities_in_zone &lt;- nrow(cities_in_border_zone)\npop_in_zone &lt;- sum(cities_in_border_zone$population, na.rm = TRUE)\n\npct_in_zone &lt;- (pop_in_zone / total_population) * 100\n\naclu_estimate &lt;- 65\nmatches_aclu &lt;- abs(pct_in_zone - aclu_estimate) &lt;= 5\n\nborder_zone_summary &lt;- tibble::tibble(\n  Metric = c(\n    \"# cities within 100 miles of U.S. border\",\n    \"Population in 100-mile zone\",\n    \"Total U.S. city population in dataset\",\n    \"Percentage of population in zone\",\n    \"Matches ACLU estimate (~65%)\"\n  ),\n  Value = c(\n    format(n_cities_in_zone, big.mark = \",\"),\n    format(pop_in_zone, big.mark = \",\"),\n    format(total_population, big.mark = \",\"),\n    paste0(round(pct_in_zone, 1), \"%\"),\n    ifelse(matches_aclu, \"Yes\", \"No\")\n  )\n)\n\nflextable(border_zone_summary) %&gt;%\n  autofit() %&gt;%\n  set_caption(\"Table of U.S. Cities Within 100-Mile Border Zone (160 km)\")\n\nMetricValue# cities within 100 miles of U.S. border9,813Population in 100-mile zone216,043,045Total U.S. city population in dataset402,301,854Percentage of population in zone53.7%Matches ACLU estimate (~65%)No\n\n\n\n# 4.2. Mapping Border Zone\ndanger_zone &lt;- cities_proj %&gt;%\n  filter(dist_to_us_border_km &lt;= 160.934)\n\ntop_10_danger &lt;- danger_zone %&gt;%\n  arrange(desc(population)) %&gt;%\n  slice_head(n = 10)\n\nggplot() +\n  geom_sf(data = state_eqdc, fill = \"gray95\", color = \"gray70\", lty = \"solid\", size = 0.3) +\n  geom_sf(data = danger_zone, aes(color = log10(population)), size = .5, alpha = 0.7) +\n  gghighlight(TRUE, use_direct_label = FALSE) +\n  geom_label_repel(\n    data = top_10_danger,\n    aes(label = city, geometry = geometry),\n    stat = \"sf_coordinates\",\n    size = 3,\n    min.segment.length = 0,\n    box.padding = 0.3\n  ) +\n  scale_color_gradient(low = \"orange\", high = \"darkred\", name = \"Log10 (Population)\") +\n  labs(\n    title = \"Cities Within 100 Miles of the U.S. Border\",\n    subtitle = \"Top 10 Most Populous Cities in the 'Danger Zone'\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\nsummary(cities_proj$population)\n\n     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. \n0.000e+00 2.702e+02 9.480e+02 1.287e+04 3.761e+03 1.883e+07 \n\nhead(cities_proj$population)\n\n[1] 18832416 11885717  8489066  6113982  6046392  5843632"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leila Aburomia",
+    "section": "",
+    "text": "As an Ecosystem Science and Sustainability student at Colorado State University, my goal is to align my professional interests in ecological research with my values to preserve our natural environment. Throughout my undergraduate career, I have supported my goal by receiving my environmental work experiences with a strong intention to learn. Conducting vegetation surveys, post-restoration wetland assessments, extensive bird monitoring, and working alongside professional biologists has created a strong skill set in field research. Being a logical and independent thinker contributes to my ability to solve problems. Overall, I seek to contribute my expertise in organizations focused on conservation science."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Lab 1\nIn lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.\n\n\n\nWebpage Preview"
   }
 ]
