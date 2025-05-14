@@ -60,6 +60,41 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Lab 1\nIn lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.\n\n\n\nWebpage Preview"
+    "text": "In lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.\n\n\n\nWebpage Preview\n\n\nLab 2: Minnesota tree growth\nIn lab 2 we were introduced to dplyr and explored how to use the package functions to manipulate long term tree growth data from Minnesota.\n\n\n\nFastest Growing Tree - Pinus banksiana"
+  },
+  {
+    "objectID": "projects.html#lab-3-covid-19",
+    "href": "projects.html#lab-3-covid-19",
+    "title": "Projects",
+    "section": "Lab 3: COVID-19",
+    "text": "Lab 3: COVID-19\nIn lab 3 I learned about data wrangling and visualization skills using COVID-19 data. We practiced modifying data to find different values.\n\n\n\nUS centers for Covid cases"
+  },
+  {
+    "objectID": "projects.html#lab-4-lter-network-data",
+    "href": "projects.html#lab-4-lter-network-data",
+    "title": "Projects",
+    "section": "Lab 4: LTER Network Data",
+    "text": "Lab 4: LTER Network Data\nIn lab 4 we learned how to conduct basic statistical tests in R, including chi-squared, t-tests, and correlation tests. We also learned when and when not to use each.\n ## Lab 5: Final Project Proposals\nIn this lab we learned how to create a quarto manuscript and did research about potential topics for the final project.\n ## Lab 6: Machine Learning in Hydrology\nIn this lab we explored predictive modeling in hydrology using tidymodels framework. I learned how to test different models with training data.\n\n\n\nRandom Forest Modeling on Streamflow"
+  },
+  {
+    "objectID": "projects.html#lab-10-distances-and-projections",
+    "href": "projects.html#lab-10-distances-and-projections",
+    "title": "Projects",
+    "section": "Lab 10: Distances and Projections",
+    "text": "Lab 10: Distances and Projections\nIn lab 10 we explored the sf, sfc, and sfg features and objects. We created a projection to find distances between features using USA state boundaries and country boundaries.\n\n\n\nCities within 100 miles of the US border where the Fourth Amendment does not fully apply"
+  },
+  {
+    "objectID": "projects.html#lab-5-final-project-proposals",
+    "href": "projects.html#lab-5-final-project-proposals",
+    "title": "Projects",
+    "section": "Lab 5: Final Project Proposals",
+    "text": "Lab 5: Final Project Proposals\nIn this lab we learned how to create a quarto manuscript and did research about potential topics for the final project.\n\n\n\nProject Proposal"
+  },
+  {
+    "objectID": "projects.html#lab-6-machine-learning-in-hydrology",
+    "href": "projects.html#lab-6-machine-learning-in-hydrology",
+    "title": "Projects",
+    "section": "Lab 6: Machine Learning in Hydrology",
+    "text": "Lab 6: Machine Learning in Hydrology\nIn this lab we explored predictive modeling in hydrology using tidymodels framework. I learned how to test different models with training data.\n\n\n\nRandom Forest Modeling on Streamflow"
   }
 ]

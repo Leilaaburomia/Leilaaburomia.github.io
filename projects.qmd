@@ -7,3 +7,39 @@ title: "Projects"
 In lab 1 we learned how to build a personal webpage through github pages. We populated the website with an about me page, and our resume and class projects.
 
 ![Webpage Preview](images/lab1image.jpg)
+
+### Lab 2: Minnesota tree growth
+
+In lab 2 we were introduced to dplyr and explored how to use the package functions to manipulate long term tree growth data from Minnesota.
+
+![Fastest Growing Tree - Pinus banksiana](images/Pinus%20banksiana.jpg)
+
+### Lab 3: COVID-19
+
+In lab 3 I learned about data wrangling and visualization skills using COVID-19 data. We practiced modifying data to find different values.
+
+![US centers for Covid cases](images/Lab3image.jpg)
+
+### Lab 4: LTER Network Data
+
+In lab 4 we learned how to conduct basic statistical tests in R, including chi-squared, t-tests, and correlation tests. We also learned when and when not to use each.
+
+![Relationship between forest type and channel type for Coastal Giant Salamander](images/lab4image.jpg)
+
+### Lab 5: Final Project Proposals
+
+In this lab we learned how to create a quarto manuscript and did research about potential topics for the final project.
+
+![Project Proposal](images/lab5image.jpg)
+
+### Lab 6: Machine Learning in Hydrology
+
+In this lab we explored predictive modeling in hydrology using tidymodels framework. I learned how to test different models with training data.
+
+![Random Forest Modeling on Streamflow](images/lab6image.jpg)
+
+### Lab 10: Distances and Projections
+
+In lab 10 we explored the sf, sfc, and sfg features and objects. We created a projection to find distances between features using USA state boundaries and country boundaries.
+
+![Cities within 100 miles of the US border where the Fourth Amendment does not fully apply](lab10image.jpg)
